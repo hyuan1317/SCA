@@ -31,10 +31,12 @@ export const TextWrapper = styled.div`
     margin-bottom: 0;
   }
 `;
-export const TitleWrapper = styled.div`
+export const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 10px 0 30px 0;
 `;
-
 export const ShowsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
